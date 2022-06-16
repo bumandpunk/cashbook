@@ -1,0 +1,81 @@
+{
+	"pages": [{
+			"path": "pages/app/bookkeeping/bookkeeping",
+			"style": {}
+		},
+		{
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/app/index",
+			"style": {
+				"navigationBarTitleText": "应用",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/user/about",
+			"style": {
+				"navigationBarTitleText": "关于",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/app/statistics/statistics",
+			"style": {}
+		}, {
+			"path": "pages/app/detailed/detailed",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "记账本",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"mp-alipay": {
+			"titleBarColor": "#FFFFFF"
+		}
+	},
+	"tabBar": {
+		"color": "#333333",
+		"backgroundColor": "#F8F8F8",
+		"selectedColor": "#FFB6C1",
+		"list": [{
+				"pagePath": "pages/app/bookkeeping/bookkeeping",
+				"text": "记账本",
+				"iconPath": "static/images/tabbar/bookkeeping.png",
+				"selectedIconPath": "static/images/tabbar/bookkeeping-act.png"
+			},
+			{
+				"pagePath": "pages/app/statistics/statistics",
+				"text": "统计",
+				"iconPath": "static/images/tabbar/statistics.png",
+				"selectedIconPath": "static/images/tabbar/statistics-act.png"
+			},
+			{
+				"pagePath": "pages/app/detailed/detailed",
+				"text": "明细",
+				"iconPath": "static/images/tabbar/detailed.png",
+				"selectedIconPath": "static/images/tabbar/detailed-act.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "static/images/tabbar/user.png",
+				"selectedIconPath": "static/images/tabbar/user-act.png"
+			}
+
+		]
+	}
+}
